@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Timeline"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <multifieldwithmap
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Multifield With Map"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <well
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/well"
+                        fieldLabel="TimelineDetails">
+                        <items jcr:primaryType="nt:unstructured">
+                            <timelinedetailswithmap
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                composite="{Boolean}true"
+                                fieldDescription="Timeline Details"
+                                fieldLabel="Timeline Details"
+                                required="{Boolean}false">
+                                <field
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                                    emptyText="Timeline Details"
+                                    name="./timelinedetailswithmap">
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <heading
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            emptyText="Heading"
+                                            fieldLabel="Heading"
+                                            name="./heading"/>
+                                        <title
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            emptyText="Title"
+                                            fieldLabel="Title"
+                                            name="./title"/>
+                                        <text
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                            emptyText="Text"
+                                            fieldLabel="Text"
+                                            name="./text"/>
+                                        <left
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Left"
+                                            name="./left"/>
+                                    </items>
+                                </field>
+                            </timelinedetailswithmap>
+                        </items>
+                    </well>
+                </items>
+            </multifieldwithmap>
+        </items>
+    </content>
+</jcr:root>

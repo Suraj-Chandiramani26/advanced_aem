@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="077d99d9-938a-4d91-8781-c5395006e2c5">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2021-09-07T13:38:41.827+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:Comments="Software: Adobe ImageReady&#xa;XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?> &lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c132 79.159284, 2016/04/19-13:13:40        &quot;> &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;> &lt;rdf:Description rdf:about=&quot;&quot; xmlns:xmpMM=&quot;http://ns.adobe.com/xap/1.0/mm/&quot; xmlns:stRef=&quot;http://ns.adobe.com/xap/1.0/sType/ResourceRef#&quot; xmlns:xmp=&quot;http://ns.adobe.com/xap/1.0/&quot; xmpMM:OriginalDocumentID=&quot;xmp.did:9e8c1161-9b09-4483-94c3-135b71893e85&quot; xmpMM:DocumentID=&quot;xmp.did:BF44E2403D5411E8A52089C802D66DBA&quot; xmpMM:InstanceID=&quot;xmp.iid:BF44E23F3D5411E8A52089C802D66DBA&quot; xmp:CreatorTool=&quot;Adobe Photoshop CC 2017 (Macintosh)&quot;> &lt;xmpMM:DerivedFrom stRef:instanceID=&quot;xmp.iid:4db2b835-3bbc-4d62-a9af-8f37d27dd6d1&quot; stRef:documentID=&quot;adobe:docid:photoshop:4a9febfc-365d-117b-8cf0-96a677b6285e&quot;/> &lt;/rdf:Description> &lt;/rdf:RDF> &lt;/x:xmpmeta> &lt;?xpacket end=&quot;r&quot;?>&#xa;"
+            dam:extracted="{Date}2021-09-07T13:38:41.308+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}2"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="9b47e031aaa62e1d60b2f2129fb6a56439321b10"
+            dam:size="{Long}2728"
+            dc:format="image/png"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}40"
+            tiff:ImageWidth="{Long}58"
+            xmp:CreatorTool="Adobe Photoshop CC 2017 (Macintosh)"
+            xmpMM:DocumentID="xmp.did:BF44E2403D5411E8A52089C802D66DBA"
+            xmpMM:InstanceID="xmp.iid:BF44E23F3D5411E8A52089C802D66DBA"
+            xmpMM:OriginalDocumentID="xmp.did:9e8c1161-9b09-4483-94c3-135b71893e85">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:4a9febfc-365d-117b-8cf0-96a677b6285e"
+                stRef:instanceID="xmp.iid:4db2b835-3bbc-4d62-a9af-8f37d27dd6d1"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

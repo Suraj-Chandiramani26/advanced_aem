@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-09-16T12:50:34.488+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/project/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="TestimonialFragment"
+        sling:resourceType="project/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="project/components/container"
+            layout="responsiveGrid">
+            <titletext_copy
+                jcr:created="{Date}2021-09-15T16:39:05.911+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-16T12:50:34.374+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/titletext"
+                info="It is very easy to start smoking but it is an uphill task to quit it. Ask any chain smoker or even a person.&#xd;&#xa;&#xd;&#xa;"
+                paddingbottom="true"
+                sectiongap="true"
+                title="Client’s Feedback About Me"/>
+            <testimonial_copy
+                jcr:created="{Date}2021-09-15T16:39:32.172+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-15T16:39:55.607+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/testimonial">
+                <testimonialdetailswithmap jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        description="Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you.&#xd;&#xa;&#xd;&#xa;"
+                        heading="Harriet Maxwell"
+                        title="CEO of Google"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        description="A purpose is the eternal condition for success. Every former smoker can tell you just how hard it is to stop smoking cigarettes. However.&#xd;&#xa;&#xd;&#xa;"
+                        heading="Carolyn Craig"
+                        title="CEO of Facebook"/>
+                </testimonialdetailswithmap>
+            </testimonial_copy>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,19 @@
+<div data-sly-use.testimonial="com.project.core.models.Testimonial"></div>
+
+ <section class="testimonial-area pb-120">
+		        <div class="container">
+                  <div class="row">
+		                <div class="active-testimonial" data-sly-list.test="${testimonial.testimonialDetailsWithMap}" >
+		                    <div class="single-testimonial item d-flex flex-row">
+		                        <div class="desc">
+		                            <p>
+                                    ${test.description}
+		                            </p>
+		                            <h4>${test.heading}</h4>
+		                            <p>${test.title}</p>
+		                        </div>
+		                    </div>
+                            </div>
+                            </div>
+                            </div>
+                            </section>

@@ -1,0 +1,22 @@
+<sly data-sly-use.timeline="com.project.core.models.Timeline"></sly>
+<section class="timeline pb-120">
+    <ul data-sly-list.items="${timeline.timelineDetailsWithMap}">
+        <li>
+            <div class="content">
+            	<h4>
+                	<time>${items.heading}</time>
+				</h4>
+
+                <div data-sly-test="${items.left=='true'}">
+                	<p>${items.title}</p>
+                </div>
+
+                <div data-sly-test="${items.left=='false'}">
+                	<p><b>Session: </b>${items.title}</p>
+                	<p><b>Result: </b>${items.text}</p>
+                </div>
+
+			</div>
+	    </li>
+	</ul>
+</section>

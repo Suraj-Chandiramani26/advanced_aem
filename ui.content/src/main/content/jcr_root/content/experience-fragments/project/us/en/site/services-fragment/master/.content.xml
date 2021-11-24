@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-09-16T12:55:04.959+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/project/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Services Fragment"
+        sling:resourceType="project/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="project/components/container"
+            layout="responsiveGrid">
+            <titletext_copy
+                jcr:created="{Date}2021-09-12T02:46:07.486+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-16T12:06:51.373+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/titletext"
+                info="At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected."
+                paddingbottom="false"
+                sectiongap="true"
+                title="My offered  services"/>
+            <services_copy
+                jcr:created="{Date}2021-09-12T02:48:06.914+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-13T02:21:42.222+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/services"
+                servicesdescription="“It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.”"
+                servicestitle="Web Design">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </services_copy>
+            <services_803016603_c
+                jcr:created="{Date}2021-09-13T02:22:06.072+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-13T02:22:24.879+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/services"
+                servicesdescription="If you are an entrepreneur, you know that your success cannot depend on the opinions of others. Like the wind, opinions."
+                servicestitle="Web Development">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </services_803016603_c>
+            <services_386692511_c
+                jcr:created="{Date}2021-09-13T02:22:32.258+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-13T02:22:52.047+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/services"
+                servicesdescription="Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills."
+                servicestitle="Photography">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </services_386692511_c>
+            <services_292760373_c
+                jcr:created="{Date}2021-09-13T02:23:36.193+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-13T02:23:56.020+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/services"
+                servicesdescription="Hypnosis quit smoking methods maintain caused quite a stir in the medical world over the last two decades. There is a lot of argument."
+                servicestitle="Clipping Path">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </services_292760373_c>
+            <services_1819057947_
+                jcr:created="{Date}2021-09-16T02:03:11.331+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-16T02:03:28.140+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/services"
+                servicesdescription="Do you sometimes have the feeling that you’re running into the same obstacles over and over again? Many of my conflicts.&#xd;&#xa;&#xd;&#xa;"
+                servicestitle="Apps Interface">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </services_1819057947_>
+            <services_289868908_c
+                jcr:created="{Date}2021-09-16T02:03:33.622+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-16T02:03:44.790+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/services"
+                servicesdescription="You’ve heard the expression, “Just believe it and it will come.” Well, technically, that is true, however, ‘believing’ is not just thinking that.&#xd;&#xa;&#xd;&#xa;"
+                servicestitle="Graphic Design">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </services_289868908_c>
+        </root>
+    </jcr:content>
+</jcr:root>

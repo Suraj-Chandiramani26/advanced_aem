@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-09-16T14:09:19.988+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-09-16T16:00:20.167+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/conf/project/settings/wcm/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="About"
+        jcr:uuid="2d3400c9-977e-4dd7-9777-e5b2869b134c"
+        sling:resourceType="project/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="project/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="project/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="project/components/container"
+                    layout="responsiveGrid">
+                    <menu_nav
+                        jcr:created="{Date}2021-09-14T14:43:59.594+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-16T04:16:40.486+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/menu-nav"
+                        heading="About Me"
+                        path="/content/project/us/en/home"
+                        path1="/content/project/us/en/home"
+                        path2="/content/project/us/en/about"
+                        title="Home"
+                        title1="Home"
+                        title2="About Me">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                    </menu_nav>
+                    <homeabout
+                        jcr:created="{Date}2021-09-14T14:44:39.066+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-15T16:06:17.711+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/homeabout"
+                        button="View Full Details"
+                        fileReference="/content/dam/project/about-img.png"
+                        multilinefield="Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+                        myfirsttext="About Me"
+                        secondtext="PERSONAL DETAILS"/>
+                    <about
+                        jcr:created="{Date}2021-09-16T02:11:53.483+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-16T13:47:05.039+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/about"
+                        bio="About Me"
+                        button="View Full Details"
+                        details="Personal Details"
+                        fileReference="/content/dam/project/about-img.png"
+                        intro="Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.&#xd;&#xa;&#xd;&#xa;"
+                        path="/content/project/us/en/about"/>
+                    <titletext_697490129
+                        jcr:created="{Date}2021-09-16T04:17:22.891+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-16T04:18:32.206+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/titletext"
+                        info="Who are in extremely love with eco friendly system.&#xd;&#xa;&#xd;&#xa;"
+                        paddingbottom="true"
+                        sectiongap="true"
+                        title="My Qualifications"/>
+                    <timeline
+                        jcr:created="{Date}2021-09-15T16:23:51.625+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-16T05:10:33.685+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/timeline">
+                        <timelinedetailswithmap jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                heading="Masters in Graphics &amp; Fine Arts"
+                                left="false"
+                                text="Result: 3.78 (In the Scale of 4.00)&#xd;&#xa;&#xd;&#xa;"
+                                title="Session: 2010-11"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                heading="Creative Content Developer"
+                                left="true"
+                                text="July 2015 to Present&#xd;&#xa;&#xd;&#xa;"
+                                title="Creative Content Developer"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                heading="Bachelor in Graphics &amp; UI/UX"
+                                left="false"
+                                text="Result: 3.40 (In the Scale of 4.00)&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;"
+                                title="Session: 2006-09"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                heading="Senior UI/UX Designer"
+                                left="true"
+                                text="July 2015 to Present&#xd;&#xa;&#xd;&#xa;"
+                                title="Senior UI/UX Designer"/>
+                            <item4
+                                jcr:primaryType="nt:unstructured"
+                                heading="Diploma in Fine Arts &amp; Printing"
+                                left="false"
+                                text="Result: 4.94 (In the Scale of 5.00)&#xd;&#xa;&#xd;&#xa;"
+                                title="Session: 2003-06"/>
+                        </timelinedetailswithmap>
+                    </timeline>
+                    <experiencefragment
+                        jcr:created="{Date}2021-09-16T12:57:35.791+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-16T12:57:35.791+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/project/us/en/site/testimonialfragment/master"/>
+                    <brands
+                        jcr:created="{Date}2021-09-15T16:40:09.252+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-15T16:40:37.816+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/brands"
+                        imgPath="[/content/dam/project/l1.png,/content/dam/project/l2.png,/content/dam/project/l3.png,/content/dam/project/l4.png,/content/dam/project/l5.png]"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

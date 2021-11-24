@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-09-16T14:08:37.224+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-09-16T16:02:20.302+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/conf/project/settings/wcm/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Home"
+        jcr:uuid="555d1b37-2d78-4175-ae30-1fb8fa5e2a29"
+        sling:resourceType="project/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="project/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/container"
+                layout="responsiveGrid">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="project/components/title"/>
+                <container
+                    jcr:lastModified="{Date}2021-09-13T13:02:17.369+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="project/components/container"
+                    layout="responsiveGrid">
+                    <homebanner
+                        jcr:created="{Date}2021-09-12T02:27:03.816+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-12T02:29:38.283+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/homebanner"
+                        button="Discover Now"
+                        fileReference="/content/dam/project/hero-img.png"
+                        multilinefield="You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures."
+                        myfirsttext="This is Me"
+                        mysecondtext="PHILIP GILBERT"
+                        path="/content/project/us/en/about"
+                        secondtext="PHILIP GILBERT"/>
+                    <homeabout
+                        jcr:created="{Date}2021-09-12T02:29:45.854+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-13T02:12:36.597+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/homeabout"
+                        button="View Full Details"
+                        fileReference="/content/dam/project/about-img.png"
+                        multilinefield="Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+                        myfirsttext="About Me"
+                        path="/content/project/us/en/about"
+                        secondtext="PERSONAL DETAILS"/>
+                    <about
+                        jcr:created="{Date}2021-09-16T01:12:08.870+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-16T01:57:33.010+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/about"
+                        bio="About Me"
+                        button="View Full Details"
+                        description="lorem ipsu"
+                        details="Personal Details"
+                        fileReference="/content/dam/project/about-img.png"
+                        intro="Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.&#xd;&#xa;&#xd;&#xa;"
+                        path="/content/project/us/en/about"
+                        title="About Me"/>
+                    <experiencefragment_635747052
+                        jcr:created="{Date}2021-09-16T12:55:50.340+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-16T12:55:50.340+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/project/us/en/site/services-fragment/master"/>
+                    <factarea
+                        jcr:created="{Date}2021-09-12T02:48:40.756+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-12T02:49:13.616+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/factarea">
+                        <factdetailswithmap jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                factlabel="Projects Completed"
+                                factnumber="2536"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                factlabel="Happy Clients"
+                                factnumber="6784"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                factlabel="Cups of Coffee"
+                                factnumber="2239"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                factlabel="Real Professionals"
+                                factnumber="435"/>
+                        </factdetailswithmap>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="12"/>
+                        </cq:responsive>
+                    </factarea>
+                    <experiencefragment
+                        jcr:created="{Date}2021-09-16T05:34:59.915+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-16T05:34:59.915+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/project/us/en/site/portfolio-fragment/portfolio-variation"/>
+                    <experiencefragment_644517897
+                        jcr:created="{Date}2021-09-16T12:42:13.522+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-16T12:42:13.522+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/project/us/en/site/testimonialfragment/master"/>
+                    <experiencefragment_271821318
+                        jcr:created="{Date}2021-09-16T12:46:30.431+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-16T12:46:30.431+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/experiencefragment"
+                        fragmentVariationPath="/content/experience-fragments/project/us/en/site/price-fragment/master"/>
+                    <blogteaser
+                        jcr:created="{Date}2021-09-13T03:02:51.449+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-13T03:04:16.545+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/blogteaser"
+                        img="/content/dam/project/b1.jpg"
+                        info="Dream interpretation has many forms; it can be done be done for the sake of fun, hobby or can be taken up as a serious career."
+                        title="Break Through Self Doubt And Fear">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </blogteaser>
+                    <blogteaser_1615541068
+                        jcr:created="{Date}2021-09-13T03:04:24.377+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-13T03:05:32.468+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/blogteaser"
+                        img="/content/dam/project/b2.jpg"
+                        info="You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving."
+                        title="Portable Fashion for young women">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </blogteaser_1615541068>
+                    <blogteaser_1991507939
+                        jcr:created="{Date}2021-09-13T03:05:41.481+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-13T03:06:35.078+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/blogteaser"
+                        img="/content/dam/project/b3.jpg"
+                        info="So many of us are demotivated to achieve anything. Such people are not enthusiastic about anything. They don’t want to work involved."
+                        title="Do Dreams Serve As A Premonition">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </blogteaser_1991507939>
+                    <brands
+                        jcr:created="{Date}2021-09-15T02:48:40.846+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-15T10:09:51.279+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/content/brands"
+                        imgPath="[/content/dam/project/l1.png,/content/dam/project/l2.png,/content/dam/project/l3.png,/content/dam/project/l4.png,/content/dam/project/l5.png]"
+                        imgpath="[/content/dam/project/l1.png,/content/dam/project/l3.png]"
+                        path="[/content/dam/project/l1.png,/content/dam/project/l2.png,/content/dam/project/l3.png,/content/dam/project/l4.png]"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-09-16T14:21:21.506+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/project/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="project/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="project/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="project/components/container"
+                    editable="{Boolean}true"
+                    layout="responsiveGrid"/>
+                <header
+                    jcr:created="{Date}2021-09-16T14:03:04.781+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-16T14:19:50.527+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="project/components/content/header"
+                    home="/content/project/us/en">
+                    <navigation
+                        jcr:lastModified="{Date}2021-09-16T14:20:59.427+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/navigation"
+                        collectAllPages="true"
+                        disableShadowing="false"
+                        navigationRoot="/content/project/us/en"
+                        structureStart="1"/>
+                    <logo
+                        jcr:lastModified="{Date}2021-09-16T14:21:21.496+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="project/components/image"
+                        altValueFromDAM="true"
+                        displayPopupTitle="true"
+                        fileReference="/content/dam/project/logo.png"
+                        isDecorative="false"
+                        titleValueFromDAM="true"/>
+                </header>
+            </container>
+            <footer
+                jcr:created="{Date}2021-09-16T14:06:00.279+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-16T14:07:00.139+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="project/components/content/footer"
+                heading1="About Me"
+                heading2="Newsletter"
+                heading3="Follow Me"
+                text1="We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.&#xd;&#xa;Copyright ©2021 All rights reserved | This template is made with by Colorlib"
+                text2="Stay updated with our latest trends"
+                text3="Let us be social"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

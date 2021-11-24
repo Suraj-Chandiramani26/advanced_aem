@@ -1,0 +1,27 @@
+<div data-sly-use.portfolioteaser="com.project.core.models.PortfolioTeaser"></div>
+        <!-- Start portfolio-area Area -->
+            <section class="portfolio-area " id="portfolio">
+                <div class="container">
+                    <div class="filters-content">
+                        <div class="row grid">
+                            <div class="single-portfolio all vector col">
+                                <div class="relative">
+                                    <div class="thumb">
+                                        <div class="overlay overlay-bg"></div>
+                                            <img class="image img-fluid" src="${portfolioteaser.image}" alt="">
+                                        </div>
+                                        <a href="${portfolioteaser.image}" class="img-pop-up">  
+                                          <div class="middle">
+                                            <div class="text align-self-center d-flex"><img src="/content/dam/project/preview.png" alt=""></div>
+                                          </div>
+                                        </a>                                    
+                                    </div>
+                                    <div class="p-inner">
+                                        <h4>${portfolioteaser.title}</h4>
+                                        <div class="cat">${portfolioteaser.info}</div>
+                                    </div>                                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>

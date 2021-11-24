@@ -1,0 +1,16 @@
+<div data-sly-use.titletext="com.project.core.models.TitleText"></div>
+<section class="${titletext.testimonialStyling? 'testimonial-area' : 'services-area'} ${titletext.sectionGap? 'pt-120' : ''}">
+	<div class="container">
+		<div class="row d-flex justify-content-center">
+			<div class="menu-content  col-lg-7">
+				<div class="title text-center">
+		        	<h1 class="mb-10">${titletext.title}</h1>
+					<p>${titletext.info}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div data-sly-test="${titletext.paddingBottom==true}">
+			<div class="pb-70"></div>
+	</div>
+</section>
