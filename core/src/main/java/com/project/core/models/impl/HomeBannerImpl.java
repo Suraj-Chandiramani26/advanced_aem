@@ -34,10 +34,6 @@ import javax.inject.Inject;
         @Inject
         String button;
 
-
-        @ValueMapValue
-        String image;
-
         @ValueMapValue
         String fileReference;
 

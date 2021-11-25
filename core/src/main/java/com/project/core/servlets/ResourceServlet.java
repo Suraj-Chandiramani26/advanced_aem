@@ -39,8 +39,7 @@ public class ResourceServlet extends SlingSafeMethodsServlet {
             pagesList.add(pageName);
             LOG.info(pageName);
         }
-/*
         response.setContentType("text/html");
-        response.getWriter().print(pagesList);*/
+        response.getWriter().print(pagesList);
     }
 }
