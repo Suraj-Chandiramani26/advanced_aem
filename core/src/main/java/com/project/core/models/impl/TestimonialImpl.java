@@ -57,7 +57,7 @@ public class TestimonialImpl implements Testimonial {
 
     @JsonProperty(value = "Author-Name")
     public String authorName(){
-        return "Suraj Chandiramani";
+       return "Something";
     }
 
 }
