@@ -15,17 +15,17 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldLabel="Title"
-                        name="./myfirsttext"/>
+                        name="./bio"/>
                     <secondfield
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldLabel="Name"
-                        name="./mysecondtext"/>
+                        name="./fullName"/>
                     <multilinefield
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
                         fieldLabel="Description"
-                        name="./multilinefield"/>
+                        name="./intro"/>
                     <button
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/foundation/form/textfield"
