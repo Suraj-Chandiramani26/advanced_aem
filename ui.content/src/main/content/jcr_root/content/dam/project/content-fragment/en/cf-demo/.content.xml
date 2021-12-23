@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="7e2760d4-49ad-4630-9736-ae8b66812876">
+    <jcr:content
+        cq:name="cf-demo"
+        cq:parentPath="/content/dam/project/content-fragment/en"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-12-13T16:03:50.578+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Cf demo "
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-12-13T16:03:50.578+05:30">
+        <data
+            cq:model="/conf/project/settings/dam/cfm/models/demo-content-fragment-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                bio="John Doe"
+                bio_x0040_LastModified="{Date}2021-12-13T14:43:38.241+05:30"
+                city="mumbai"
+                city_x0040_LastModified="{Date}2021-12-13T14:43:38.244+05:30"
+                fullName="[Full name,Second name]"
+                fullName_x0040_LastModified="{Date}2021-12-13T14:43:38.242+05:30"/>
+            <variation_demo
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                bio="Jenny Doe"
+                bio_x0040_LastModified="{Date}2021-12-13T16:03:50.540+05:30"
+                city="kolkata"
+                city_x0040_LastModified="{Date}2021-12-13T16:03:50.541+05:30"
+                fullName="[Full name,Second name]"
+                fullName_x0040_LastModified="{Date}2021-12-13T16:03:50.541+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <variation_demo
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Variation Demo"
+                    name="variation_demo">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[bio:449ba019-fd9a-4f4e-987a-3391bb6d77ef,fullName:449ba019-fd9a-4f4e-987a-3391bb6d77ef,city:449ba019-fd9a-4f4e-987a-3391bb6d77ef]"/>
+                </variation_demo>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
