@@ -1,0 +1,31 @@
+
+.font-red{
+        color:red 
+    }
+
+.font-green{
+        color:green
+    }
+
+.font-blue{
+        color:blue 
+    }
+.bg-red{
+        background-color: red;
+    }
+.bg-green{
+        background-color: green;
+    }
+.border-solid{
+		border-style: solid ;
+        border-width: thick;
+    }
+.border-color{
+    border-color: red;
+}
+.img-example{
+    .img-fluid{
+				float: left;
+                text-align:right;
+            }
+}
