@@ -5,7 +5,7 @@ import org.osgi.service.metatype.annotations.AttributeType;
 import org.osgi.service.metatype.annotations.ObjectClassDefinition;
 
 @ObjectClassDefinition(
-        name = "Personal project - Scheduler Configuration",
+        name = "Personal Scheduler Configuration ",
         description = "Sling scheduler configuration"
 )
 public @interface SchedulerConfiguration {
@@ -20,6 +20,5 @@ public @interface SchedulerConfiguration {
             name = "Cron Expression",
             description = "Cron expression used by the scheduler",
             type = AttributeType.STRING)
-    public String cronExpression() default "0/20 * * * * ?"; // runs every 10 seconds
+    public String cronExpression() default "0 0/1 * 1/1 * ? *";
 }
-
