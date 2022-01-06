@@ -1,0 +1,12 @@
+{
+  "menuNav": {
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:createdBy": "admin",
+    "jcr:lastModifiedBy": "admin",
+    "jcr:created": "Fri Jun 18 2021 01:24:56 GMT+0530",
+    "path": "/content/project/us/en/home",
+    "title": "About Me",
+    "jcr:lastModified": "Fri Jun 18 2021 14:50:20 GMT+0530",
+    "sling:resourceType": "project/components/content/menu-nav"
+  }
+}

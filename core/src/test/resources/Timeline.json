@@ -2,13 +2,13 @@
 {
   "timeline":
 
-{
-  "timelineDetailsWithMap":
   {
-  "heading": "2018",
-  "left": "false",
-  "text": "AAA",
-  "title": "INDIA"
+    "timelineDetailsWithMap":
+    {
+      "heading": "2018",
+      "left": "false",
+      "text": "AAA",
+      "title": "INDIA"
+    }
   }
-}
 }

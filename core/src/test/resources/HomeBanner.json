@@ -1,11 +1,11 @@
 {
-    "homebanner":
-    {
-        "button": "Discover Now",
-        "path": "/content/project/us/en/about",
-        "image": "/content/dam/project/hero-img.png",
-        "fullName": "PHILIP GILBERT",
-        "intro": "You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.",
-        "bio": "This is Me"
-    }
+  "homebanner":
+  {
+    "button": "Discover Now",
+    "path": "/content/project/us/en/about",
+    "fileReference": "/content/dam/project/hero-img.png",
+    "fullName": "PHILIP GILBERT",
+    "intro": "You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.",
+    "bio": "This is Me"
+  }
 }
