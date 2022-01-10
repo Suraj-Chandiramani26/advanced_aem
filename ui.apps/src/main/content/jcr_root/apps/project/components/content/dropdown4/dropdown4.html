@@ -1,0 +1,13 @@
+<h1>DROPDOWN TASK 4</h1>
+<sly data-sly-test.hasType="${properties.type}">
+    <pre>${properties.type} is selected</pre>
+    <pre></pre>
+
+<pre data-sly-test="${properties.type == 'gender'}">	Gender: ${properties.radio}</pre>
+<pre data-sly-test="${properties.type == 'language' && properties.german}">	Languages: ${properties.german}</pre>
+<pre data-sly-test="${properties.type == 'language' && properties.english}">	Languages: ${properties.english}</pre>
+<pre data-sly-test="${properties.type == 'language' && properties.hindi}">	Languages: ${properties.hindi}</pre>
+<pre data-sly-test="${properties.type == 'address'}">	Address: ${properties.street} ,${properties.city} ,${properties.state}</pre>
+<pre data-sly-test="${properties.type == 'phonenumber' && properties.phonenumber}">	Phonenumber: ${properties.phonenumber}</pre>
+
+<pre data-sly-test="${!hasType}">No product selected</pre>
