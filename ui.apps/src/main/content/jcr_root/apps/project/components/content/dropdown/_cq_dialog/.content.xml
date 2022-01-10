@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Dropdown"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <country
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                        fieldLabel="country"
+                        name="./country">
+                        <items jcr:primaryType="nt:unstructured">
+                            <france
+                                jcr:primaryType="nt:unstructured"
+                                text="france"
+                                value="france"/>
+                            <india
+                                jcr:primaryType="nt:unstructured"
+                                text="india"
+                                value="india"/>
+                            <united_x0020_states
+                                jcr:primaryType="nt:unstructured"
+                                text="united states"
+                                value="united states"/>
+                            <germany
+                                jcr:primaryType="nt:unstructured"
+                                text="germany"
+                                value="germany"/>
+                            <england
+                                jcr:primaryType="nt:unstructured"
+                                text="england"
+                                value="england"/>
+                        </items>
+                    </country>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>
