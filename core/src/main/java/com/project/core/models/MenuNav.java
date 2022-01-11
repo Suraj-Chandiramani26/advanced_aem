@@ -2,7 +2,7 @@ package com.project.core.models;
 
 public interface MenuNav {
 
-    String getTitle();
+     String getTitle();
 
-    String getPath();
+     String getPath();
 }
