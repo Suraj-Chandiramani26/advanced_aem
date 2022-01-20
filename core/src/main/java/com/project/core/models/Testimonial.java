@@ -6,5 +6,4 @@ import java.util.Map;
 public interface Testimonial {
 
     List<Map<String, String>> getTestimonialDetailsWithMap();
-
 }

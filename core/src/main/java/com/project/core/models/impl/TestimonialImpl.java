@@ -2,17 +2,13 @@ package com.project.core.models.impl;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.project.core.models.Testimonial;
-import com.project.core.models.TitleText;
 import org.apache.sling.api.resource.Resource;
-import org.apache.sling.models.annotations.Default;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Exporter;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.ChildResource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -29,7 +25,7 @@ import java.util.Map;
 @Exporter(name = "jackson",extensions = "json",selector = "testimonial")
 public class TestimonialImpl implements Testimonial {
     private static final Logger LOG = LoggerFactory.getLogger(TestimonialImpl.class);
-    final protected static String RESOURCE_TYPE="/apps/project/components/content/testimonial";
+    static final String RESOURCE_TYPE="/apps/project/components/content/testimonial";
 
     @ChildResource
     Resource testimonialdetailswithmap;
@@ -38,7 +34,6 @@ public class TestimonialImpl implements Testimonial {
     public List<Map<String, String>> getTestimonialDetailsWithMap() {
         List<Map<String, String>> testimonialDetailsMap=new ArrayList<>();
         try {
-          //  Resource testimonialDetail=componentResource.getChild("testimonialdetailswithmap");
             if(testimonialdetailswithmap!=null){
                 for (Resource testimonial : testimonialdetailswithmap.getChildren()) {
                     Map<String,String> testimonialMap =new HashMap<>();
@@ -57,7 +52,7 @@ public class TestimonialImpl implements Testimonial {
 
     @JsonProperty(value = "Author-Name")
     public String authorName(){
-       return "Something";
+        return "Umesh Kundnani";
     }
 
 }

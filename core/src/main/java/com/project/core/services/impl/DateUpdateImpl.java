@@ -7,9 +7,8 @@ import com.project.core.utils.ResolverUtils;
 import org.apache.sling.api.resource.*;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Reference;
-import org.osgi.service.log.Logger;
 import org.osgi.service.metatype.annotations.Designate;
-import org.slf4j.LoggerFactory;
+
 
 import javax.jcr.*;
 import java.sql.Timestamp;
@@ -28,7 +27,6 @@ public class DateUpdateImpl implements DateUpdate{
     Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 
     String path = "/content/project/us/en/blde/jcr:content/root/container/container/schedulerdemo";
-    //private static final Logger LOG = (Logger) LoggerFactory.getLogger(DateUpdateImpl.class);
 
     @Reference
     ResourceResolverFactory resourceResolverFactory;
@@ -46,10 +44,8 @@ public class DateUpdateImpl implements DateUpdate{
 
 
             session.save();
-            session.logout();
-        } catch (Exception e) {
 
-        }
+        } catch (Exception e){}
         return path;
     }
 }

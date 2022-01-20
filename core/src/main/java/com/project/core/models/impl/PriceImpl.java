@@ -2,7 +2,6 @@ package com.project.core.models.impl;
 
 
 import com.project.core.models.Price;
-import com.project.core.models.Services;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;

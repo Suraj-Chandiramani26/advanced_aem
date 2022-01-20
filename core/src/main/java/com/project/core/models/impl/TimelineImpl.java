@@ -11,7 +11,7 @@ import org.apache.sling.models.annotations.injectorspecific.ChildResource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.inject.Inject;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -26,7 +26,7 @@ import java.util.Map;
 @Exporter(name = "jackson",extensions = "json",selector = "timeline")
 public class TimelineImpl implements Timeline {
     private static final Logger LOG = LoggerFactory.getLogger(TimelineImpl.class);
-    final protected static String RESOURCE_TYPE="/apps/project/components/content/timeline";
+     static final String RESOURCE_TYPE="/apps/project/components/content/timeline";
 
     @ChildResource
     Resource timelinedetailswithmap;
@@ -35,7 +35,6 @@ public class TimelineImpl implements Timeline {
     public List<Map<String, String>> getTimelineDetailsWithMap() {
         List<Map<String, String>> timelineDetailsMap=new ArrayList<>();
         try {
-         //   Resource timelineDetail=timelinedetailswithmap.getChild("timelinedetailswithmap");
             if(timelinedetailswithmap!=null){
                 for (Resource timeline : timelinedetailswithmap.getChildren()) {
                     Map<String,String> timelineMap=new HashMap<>();

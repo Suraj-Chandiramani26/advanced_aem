@@ -3,15 +3,14 @@ package com.project.core.models.impl;
 import com.project.core.models.FactArea;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
-import org.apache.sling.models.annotations.Default;
+
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.ChildResource;
-import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.inject.Inject;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -32,7 +31,6 @@ public class FactAreaImpl implements FactArea{
     public List<Map<String, String>> getFactDetailsWithMap() {
         List<Map<String, String>> factDetailsMap=new ArrayList<>();
         try {
-           // Resource factDetail=componentResource.getChild("factdetailswithmap");
             if(factdetailswithmap!=null){
                 for (Resource fact : factdetailswithmap.getChildren()) {
                     Map<String,String> factMap=new HashMap<>();
