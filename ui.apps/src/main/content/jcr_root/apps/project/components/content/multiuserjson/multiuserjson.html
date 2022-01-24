@@ -1,0 +1,12 @@
+<sly class="container bg-white" data-sly-use.multiuser="com.project.core.models.MultiUserList"></sly>
+  <h3 hidden>${multiuser.url}</h3>
+  <div data-sly-list.items=${multiuser.ussers}>
+    <div class="column cardlist-container">
+      <img src="${items.avatar}"/>
+        <div>
+            <span style="text-align: center">${items.fname}</span>
+            <span style="text-align: center">${items.lname}</span>
+        </div>
+		<p id="demo3">${items.email}</p>
+    </div>
+</div>
