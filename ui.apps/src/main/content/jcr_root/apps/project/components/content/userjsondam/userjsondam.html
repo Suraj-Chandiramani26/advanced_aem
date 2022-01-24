@@ -1,0 +1,12 @@
+<h3>Single User Task</h3>
+<sly class="container bg-white" data-sly-use.singleuser="com.project.core.models.FetchingSingleUser"></sly>
+<h3 hidden style="text-align:center">${singleuser. url}</h3>
+<h3 hidden style="text-align:center">${singleuser.message}</h3>
+<div class="column cardlist-container test">
+<img src="${singleuser.avatar}" alt="NO Image found" style="text-align: center"/>
+<div>
+<p style="text-align: center">${singleuser.fname}</p>
+<p style="text-align: center">${singleuser.lname}</p>
+</div>
+<p style="text-align: center;" id="demo3">${singleuser.email}</p>
+</div>
